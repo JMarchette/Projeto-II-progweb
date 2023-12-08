@@ -1,0 +1,119 @@
+body {
+    font-family: 'Minecraftia', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+  }
+
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: rgb(24, 173, 124) 3px solid;
+  }
+
+  #menuLateral {
+    height: 100%;
+    width: 0;
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    overflow: hidden;
+    transition: width 0.3s;
+  }
+
+  .abrirMenu {
+    color: rgb(24, 173, 124);
+    font-size: 25px;
+    margin-bottom: 25px;
+    line-height: 1.5;
+    margin-top: -20px;
+    position: relative;
+    float: left;
+    cursor: pointer;
+  }
+
+  h1 {
+    margin: 15px; /* Adicionado para remover a margem padrão */
+    align-items: center;
+    justify-content: center;
+   padding-left: 15px;
+  }
+
+  nav a {
+    font-size: 15px;
+    display: block;
+    padding: 12px 10px 12px 32px;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  nav a:hover {
+    background-color: rgb(24, 173, 124);
+    color: #000;
+  }
+
+  #login-container {
+    background-color: #000;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgb(24, 173, 124);
+    margin-top: 60px;
+    text-align: center;
+    width: 80%;
+    max-width: 400px;
+  }
+
+  h2 {
+    color: rgb(24, 173, 124);
+  }
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+    color: rgb(24, 173, 124);
+  }
+
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    color: #000; /* Alterada para preto para ser visível no fundo branco */
+  }
+  
+
+  button {
+    background-color: rgb(24, 173, 124);
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #000;
+  }
+
+.textoRodape{
+    float: left;
+    margin-left: 10px;
+}
+
+.itensRodape{
+    float: right;
+    margin-left: 10px;
+}
